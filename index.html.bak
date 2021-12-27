@@ -1,37 +1,166 @@
-<html>
-<head>
-<title> dropdown Menu Design- Easy tutorials</title>
-<link rel="stylesheet" href="style.css">
-
-</head>
+<!DOCTYPE html>
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> All Exam prepration|Monu Beniwal </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxiocns CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
 <body>
-<div class="menu-bar">
-<ul>
-<li class="active"><a href="#"> home </a> </li>
+  <div class="sidebar close">
+    <div class="logo-details">
+      <i class='bx bx-laptop'></i>
+      <span class="logo_name">All exam prepration</span>
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="#">
+		<i class='bx bxs-dice-1'></i>
+         <span class="link_name">Dashboard</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">National Exam</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bxs-dice-2'></i>
+            <span class="link_name">National Exam</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">National Exam</a></li>
+          <li><a href="https://forms.gle/N7mhzpL97wrjbcKX8">SSC Exam</a></li>
+		  <li><a href="#">SSC part 2</a></li>
+          <li><a href="#">Railway Exam</a></li>
+          <li><a href="#">Bank Exam</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bxs-dice-3'></i>
+            <span class="link_name">State Exam</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">State Exam</a></li>
+          <li><a href="#">Web Design</a></li>
+          <li><a href="#">Login Form</a></li>
+          <li><a href="#">Card Design</a></li>
+        </ul>
+      </li>
 
-<li> <a href="#">  About us  </a>
-                    <div class="sub-menu-1">
-                     <ul>
-					 <li> <a href="#"> A </a> </li>
-					 <li> <a href="#"> B </a> </li>
-					 <li> <a href="#"> C </a> </li>
-					 </ul>
-					 </div>
-					 </li>
-					 
-<li><a href="#">  Contact  </a> 
-                          <div class="sub-menu-1">
-                     <ul>
-					 <li> <a href="https://bit.ly/3ybwFbJ"> Whatsapp </a> </li>
-					 <li> <a href="https://www.instagram.com/monubeniwal5911/""> Instagram </a> </li>
-					 <li> <a href="#"> c </a> </li>
-					 </ul>
-					 </div>
-					 </li>
+     
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bxs-dice-4'></i>
+            <span class="link_name">General Science</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">General Science</a></li>
+          <li><a href="#">UI Face</a></li>
+          <li><a href="#">Pigments</a></li>
+          <li><a href="#">Box Icons</a></li>
+        </ul>
+      </li>
+        
+         <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bxs-dice-5'></i>
+            <span class="link_name">Haryana G.K</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Haryana G.K</a></li>
+          <li><a href="#">UI Face</a></li>
+          <li><a href="#">Pigments</a></li>
+          <li><a href="#">Box Icons</a></li>
+        </ul>
+      </li>
+        
+         <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bxs-dice-6'></i>
+            <span class="link_name">Rajasthan G.K</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Rajasthan G.K</a></li>
+          <li><a href="#">UI Face</a></li>
+          <li><a href="#">Pigments</a></li>
+          <li><a href="#">Box Icons</a></li>
+        </ul>
+      </li>
+          <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bxl-javascript'></i>
+            <span class="link_name">Programming Language Test</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Programming Language Test</a></li>
+          <li><a href="#">UI Face</a></li>
+          <li><a href="#">Pigments</a></li>
+          <li><a href="#">Box Icons</a></li>
+        </ul>
+      </li>
+     
+     <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-laptop'></i>
+            <span class="link_name">Computer</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Computer</a></li>
+          <li><a href="#">Web Design</a></li>
+          <li><a href="#">Login Form</a></li>
+          <li><a href="#">Card Design</a></li>
+        </ul>
+      </li>
+      <li>	          
+    <li>
+    <div class="profile-details">
+      <div class="profile-content">
+        <img src="image/monubeniwal.jpg" alt="profileImg">
+      </div>
+      <div class="name-job">
+        <div class="profile_name">Monu Beniwal</div>
+        <div class="job">Web Desginer</div>
+		 <div class="job">7027066876</div>
 
-
-</li>
+      </div>
+      <i class='bx bx-log-out' ></i>
+    </div>
+  </li>
 </ul>
-</div>
+  </div>
+  <section class="home-section">
+    <div class="home-content">
+      <i class='bx bx-menu' ></i>
+      <span class="text">All Exam Prepration</span>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+
 </body>
 </html>
